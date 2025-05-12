@@ -1,0 +1,24 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Tarjeta Interactiva</title>
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="envelope" onclick="openEnvelope()">
+      <img src="assets/envelope.png" alt="Sobre mágico" class="envelope-img">
+      <p class="tap-text">TOCA PARA ABRIR</p>
+    </div>
+    <div class="message" id="message">
+      <p>En este pequeño rincón de magia, guardo un deseo especial solo para ti: <br><br>
+      que la vida te regale siempre luz, amor y alas para volar. <br><br>
+      Gracias por estar aquí. ✨</p>
+    </div>
+  </div>
+  <audio id="chime-sound" src="assets/chime.mp3" preload="auto"></audio>
+  <script src="assets/script.js"></script>
+</body>
+</html>

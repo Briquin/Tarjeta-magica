@@ -1,0 +1,42 @@
+
+body {
+  background: linear-gradient(to top, #fce4ec, #f8bbd0);
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+}
+
+.envelope-img {
+  width: 300px;
+  transition: transform 1s ease;
+  cursor: pointer;
+}
+
+.tap-text {
+  margin-top: -20px;
+  font-size: 1.2em;
+  color: #d81b60;
+  font-weight: bold;
+}
+
+.message {
+  display: none;
+  margin-top: 20px;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(218, 81, 133, 0.5);
+  font-size: 1.2em;
+  color: #880e4f;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
